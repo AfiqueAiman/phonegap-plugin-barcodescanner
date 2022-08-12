@@ -1,5 +1,13 @@
 # Change Log
 
+## v8.1.1
+
+- Update URLs with forked repo to `package.json` [view commit](https://github.com/phonegap/phonegap-plugin-barcodescanner/commit/ed9482f2df546a119c2d3ad6e1670a483b4e81e9)
+- fix: set hardware camera as `optional` on Android [view commit](https://github.com/phonegap/phonegap-plugin-barcodescanner/commit/4a7c9bb8d6f567f37c468505fee75daba8f12041)
+- Add header notice for forked repo to `README.md` [view commit](https://github.com/phonegap/phonegap-plugin-barcodescanner/commit/abb745765552094017c116c8b25b31f246478b3d)
+- fix: replace `compile` with `implementation` for Android [view commit](https://github.com/phonegap/phonegap-plugin-barcodescanner/commit/9e167d7fff3642b079cb7d0bd77ba01ac1395b65)
+- Update camera modal presentation for iOS to `fullscreen` [view commit](https://github.com/phonegap/phonegap-plugin-barcodescanner/commit/0ee8f4296160eee806462bd85942fab4b498dc75)
+
 ## v8.1.0
 
 - Don't use `dispatch_sync` if already in the main thread ([#797](https://github.com/phonegap/phonegap-plugin-barcodescanner/pull/797)) [view commit](https://github.com/phonegap/phonegap-plugin-barcodescanner/commit/d45ffc32c03e489b6bb3da8a29d950e7a89f4812)
