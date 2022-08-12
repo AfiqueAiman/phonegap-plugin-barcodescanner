@@ -1,6 +1,10 @@
 # PhoneGap Plugin BarcodeScanner
 ================================
 
+Personal fork ( Not sure if I'll be able to maintain this anytime soon... )
+
+================================
+
 [![Build Status](https://travis-ci.org/phonegap/phonegap-plugin-barcodescanner.svg)](https://travis-ci.org/phonegap/phonegap-plugin-barcodescanner)
 
 Cross-platform BarcodeScanner for Cordova / PhoneGap.
