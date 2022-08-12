@@ -1,5 +1,9 @@
 # Change Log
 
+## v8.1.2
+
+- Publish as released to `npm` [view package](https://www.npmjs.com/package/@afiqueaiman/phonegap-plugin-barcodescanner)
+
 ## v8.1.1
 
 - Update URLs with forked repo to `package.json` [view commit](https://github.com/phonegap/phonegap-plugin-barcodescanner/commit/ed9482f2df546a119c2d3ad6e1670a483b4e81e9)
