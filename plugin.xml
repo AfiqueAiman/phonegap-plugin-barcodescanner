@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:rim="http://www.blackberry.com/ns/widgets" id="phonegap-plugin-barcodescanner" version="8.1.1-dev">
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:rim="http://www.blackberry.com/ns/widgets" id="@afiqueaiman/phonegap-plugin-barcodescanner" version="8.1.1-dev">
   <name>BarcodeScanner</name>
   <description>You can use the BarcodeScanner plugin to scan different types of barcodes (using the device's camera) and get the metadata encoded in them for processing within your application.</description>
   <license>MIT</license>
-  <repo>https://github.com/phonegap/phonegap-plugin-barcodescanner</repo>
-  <issue>https://github.com/phonegap/phonegap-plugin-barcodescanner/issues</issue>
+  <repo>https://github.com/afiqueaiman/phonegap-plugin-barcodescanner</repo>
+  <issue>https://github.com/afiqueaiman/phonegap-plugin-barcodescanner/issues</issue>
   <engines>
     <engine name="cordova" version=">=7.1.0"/>
     <engine name="cordova-android" version=">=6.3.0"/>
@@ -39,7 +39,7 @@
     <config-file target="AndroidManifest.xml" parent="/manifest">
       <uses-permission android:name="android.permission.CAMERA"/>
       <uses-permission android:name="android.permission.FLASHLIGHT"/>
-      <uses-feature android:name="android.hardware.camera" android:required="true"/>
+      <uses-feature android:name="android.hardware.camera" android:required="false"/>
     </config-file>
     <framework src="src/android/barcodescanner.gradle" custom="true" type="gradleReference"/>
     <framework src="com.android.support:support-v4:$ANDROID_SUPPORT_V4_VERSION"/>
